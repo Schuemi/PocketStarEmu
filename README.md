@@ -24,12 +24,19 @@ filename
   
   # The controls
   UP = arrow up
+  
   LEFT = arrow left
+  
   DOWN = arrow down
+  
   RIGHT = arrow right
+  
   A = space
+  
   B = left strg
+  
   Pause = ESC
+  
   
   
   # What is missing?
