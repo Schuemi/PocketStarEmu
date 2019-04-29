@@ -3,6 +3,10 @@
 
 ![PocketStarEmulator](https://raw.githubusercontent.com/Schuemi/PocketStarEmu/master/PocketStar.PNG)
 
+This is a PocketStar : https://www.zepsch.com/pocketstar/
+
+This emulator should help to develop more great games for the Pcoketstar. 
+
 
 - Please note that this is an alpha version
 
