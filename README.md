@@ -18,5 +18,5 @@ filename
   
  -scaleX
  
-  The window size. you can use -scale2 to scale8. (Without a space between -scale and the number)
+  The window size. you can use -scale2 to -scale8. (Without a space between -scale and the number)
   
