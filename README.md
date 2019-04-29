@@ -45,6 +45,7 @@ filename
   - some CPU instructions are missing (but not used somewhere, yet)
   - many SAMD21 components (also not used in a game, yet)
   - some display commands
-  
+  - no brightness
+  - the display colors are not quite right yet
   
   
