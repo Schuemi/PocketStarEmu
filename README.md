@@ -20,3 +20,22 @@ filename
  
   The window size. you can use -scale2 to -scale8. (Without a space between -scale and the number)
   
+  # The controls
+  UP = arrow up
+  LEFT = arrow left
+  DOWN = arrow down
+  RIGHT = arrow right
+  A = space
+  B = left strg
+  Pause = ESC
+  
+  
+  # What is missing?
+  - no vibration yet,
+  - no SD-Card support
+  - some CPU instructions are missing (but not used somewhere, yet)
+  - many SAMD21 compenents (also not used in a game, yet)
+  - some display commands
+  
+  
+  
