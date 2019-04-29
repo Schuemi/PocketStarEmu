@@ -5,7 +5,7 @@
 
 This is a PocketStar : https://www.zepsch.com/pocketstar/
 
-This emulator should help to develop more great games for the Pcoketstar. 
+This emulator should help to develop more great games for the Pocketstar. 
 
 
 - Please note that this is an alpha version
