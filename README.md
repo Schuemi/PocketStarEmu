@@ -4,6 +4,8 @@
 
 This is my PocketStar Emulator. Sorry, but no Source code release,yet. But you can download the newes compiled version here: https://github.com/Schuemi/PocketStarEmu/releases
 
+You need Windows10 64bit and a fast computer to run.
+
 # How to start?
 
 pocketstaremu.exe [filename] [-cycles] [-scaleX]
