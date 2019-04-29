@@ -1,6 +1,10 @@
 # PocketStar Emulator
 
-- Please note that this is an alpha version - 
+
+![PocketStarEmulator](https://raw.githubusercontent.com/Schuemi/PocketStarEmu/master/PocketStar.PNG)
+
+
+- Please note that this is an alpha version
 
 This is my PocketStar Emulator. Sorry, but no Source code release,yet. But you can download the newes compiled version here: https://github.com/Schuemi/PocketStarEmu/releases
 
