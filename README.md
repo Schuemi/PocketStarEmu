@@ -61,7 +61,6 @@ filename
   
   # What is missing?
   - no vibration yet,
-  - no SD-Card support
   - some CPU instructions are missing (but not used somewhere, yet)
   - many SAMD21 components (also not used in a game, yet)
   - some display commands
