@@ -5,7 +5,7 @@
 
 This is a PocketStar : https://www.zepsch.com/pocketstar/
 
-This emulator should help to develop more great games for the Pocketstar. 
+This emulator should help to develope more great games for the Pocketstar. 
 
 
 - Please note that this is an alpha version
@@ -16,7 +16,7 @@ You need Windows10 64bit and a fast computer to run.
 
 # How to start?
 
-pocketstaremu.exe [filename] [-cycles] [-scaleX]
+pocketstaremu.exe [filename] [-cycles] [-scaleX] [-sd SDCARDIMAGE.img] [-nosd]
 
 filename 
 
@@ -29,6 +29,18 @@ filename
  -scaleX
  
   The window size. you can use -scale2 to -scale8. (Without a space between -scale and the number)
+  
+  -sd SDCARDIMAGE.img
+  
+  Can be used to specify the name of an SD card image. If this option is omitted, the file "PocketSD.img" will be loaded.
+  
+  -nosd
+  
+  Insert no SD Card
+  
+  # SD Card
+  
+  The SD card is emulated with a RAW image formatted in FAT32. In the zip file you find the Image "PocketSD.img". This is a 36MB image, already formated and with "games" and "apps" directorys. In Windows you can mount this image with the free software "OSFMount" ( https://www.osforensics.com/tools/mount-disk-images.html ). After mounting the image, you have a new volume as if you had inserted a real SD card. Please demount the image, before you start the PocketStar Emulator. Otherwise the Emulator can't write on the Image.
   
   # The controls
   UP = arrow up
