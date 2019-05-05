@@ -8,7 +8,7 @@ This is a PocketStar : https://www.zepsch.com/pocketstar/
 This emulator should help to develope more great games for the Pocketstar. 
 
 
-- Please note that this is an alpha version
+- Please note that this is an beta version
 
 This is my PocketStar Emulator. Sorry, but no Source code release,yet. But you can download the newes compiled version here: https://github.com/Schuemi/PocketStarEmu/releases
 
@@ -54,6 +54,16 @@ filename
   
   Loads a program at this address. The default is 0x10000. If you whant to load the Menu for example, enter 0x2000.
   
+  # Serial Monitor
+  
+  To debug your program you can open a serial monitor. If you open Serial1 and write to it a window will automaticly open and shows your debugging messages.
+  For example:
+  ```
+      Serial1.begin(115200);
+      Serial1.print("Hello World!\n");
+  ```
+  
+  ![SerialMonitor](https://raw.githubusercontent.com/Schuemi/PocketStarEmu/master/sm.PNG)
   
   # Animated Gifs
   
