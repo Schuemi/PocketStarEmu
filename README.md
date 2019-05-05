@@ -68,7 +68,7 @@ filename
   # Animated Gifs
   
  
- You can start a gif recording by pressing the key "G" or with the start parameters. While recording you will see a blinking rest square in the upper right corner. (Of corse this square is noch visible in the recording). To stop it, press "G" again. The Gif will be saved in the working directory and the name of the Game with a ".gif" at the end. Multiple gifs are possible.
+ You can start a gif recording by pressing the key "G" or with the start parameters. While recording you will see a blinking red square in the upper right corner. (Of corse this square is not visible in the recording). To stop it, press "G" again. The Gif will be saved in the working directory and the name of the Game with a ".gif" at the end. Multiple gifs are possible.
  
  # PNG screenshot
  
