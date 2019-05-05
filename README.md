@@ -72,7 +72,7 @@ filename
  
  # PNG screenshot
  
- You can make a PNG screenshot by pressing "P" or with the start parameters. he Gif will be saved in the working directory and the name of the Game with a ".png" at the end. Multiple screenshots are possible.
+ You can make a PNG screenshot by pressing "P" or with the start parameters. The png will be saved in the working directory and the name of the Game with a ".png" at the end. Multiple screenshots are possible.
   
   
   # SD Card
