@@ -51,6 +51,7 @@ filename
   Makes a screenshoft after X Frames and quits the emulator. One frame is a 10th of a second.
   
   -addr [ADDRESS]
+  
   Loads a program at this address. The default is 0x10000. If you whant to load the Menu for example, enter 0x2000.
   
   
