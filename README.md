@@ -16,7 +16,7 @@ You need Windows10 64bit and a fast computer to run.
 
 # How to start?
 
-pocketstaremu.exe [filename] [-cycles] [-scaleX] [-sd SDCARDIMAGE.img] [-nosd]
+pocketstaremu.exe [filename] [-cycles] [-scaleX] [-sd SDCARDIMAGE.img] [-nosd] [-startrec] [-stoprec [FRAMES]] [-screenshot [FRAME]] [-addr [ADDRESS]] 
 
 filename 
 
@@ -37,6 +37,32 @@ filename
   -nosd
   
   Insert no SD Card
+  
+  -startrec
+  
+  Starts gif recording immediately
+  
+  -stoprec [FRAMES]
+  
+  Stops recording after X frames and quits the emulator. One frame is a 10th of a second.
+  
+  -screenshot [FRAME]
+  
+  Makes a screenshoft after X Frames and quits the emulator. One frame is a 10th of a second.
+  
+  -addr [ADDRESS]
+  Loads a program at this address. The default is 0x10000. If you whant to load the Menu for example, enter 0x2000.
+  
+  
+  # Animated Gifs
+  
+ 
+ You can start a gif recording by pressing the key "G" or with the start parameters. While recording you will see a blinking rest square in the upper right corner. (Of corse this square is noch visible in the recording). To stop it, press "G" again. The Gif will be saved in the working directory and the name of the Game with a ".gif" at the end. Multiple gifs are possible.
+ 
+ # PNG screenshot
+ 
+ You can make a PNG screenshot by pressing "P" or with the start parameters. he Gif will be saved in the working directory and the name of the Game with a ".png" at the end. Multiple screenshots are possible.
+  
   
   # SD Card
   
@@ -60,11 +86,9 @@ filename
   
   
   # What is missing?
-  - no vibration yet,
   - some CPU instructions are missing (but not used somewhere, yet)
   - many SAMD21 components (also not used in a game, yet)
   - some display commands
-  - no brightness
   - the display colors are not quite right yet
   
   
