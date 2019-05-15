@@ -16,7 +16,7 @@ You need Windows10 64bit and a fast computer to run.
 
 # How to start?
 
-pocketstaremu.exe [filename] [-cycles] [-scaleX] [-sd SDCARDIMAGE.img] [-nosd] [-startrec] [-stoprec [FRAMES]] [-screenshot [FRAME]] [-addr [ADDRESS]] 
+pocketstaremu.exe [filename] [-cycles] [-scaleX] [-sd SDCARDIMAGE.img] [-nosd] [-startrec] [-stoprec [FRAMES]] [-screenshot [FRAME]] [-addr [ADDRESS]]  [-battery [full/half/low/empty]] [-charging] [-draining]
 
 filename 
 
@@ -64,6 +64,9 @@ filename
   ```
   
   ![SerialMonitor](https://raw.githubusercontent.com/Schuemi/PocketStarEmu/master/sm.PNG)
+  
+  -battery [full/half/low/empty] [-charging] [-draining]
+  With this parameter you can simulate the battery. Set it to full, half, low or emty. also you can add -charging or -draining. The speed of charing or draining is faster than on the real hardware, I think it's better to test this way.
   
   # Animated Gifs
   
